@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.box-principal {
+  width: 1700px;
+  height: 90%;
+  margin: 30px auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+
+  background-color: gray;
+  border-radius: 20px;
+}
+
+/*Primeiro quadrado*/
+.box {
+  width: 650px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  border-radius: 20px;
+  margin: 5px;
+}
+/*GOOGLE BUSCADOR*/
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 220px;
+}
+
+.google-search {
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.google-search:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.38);
+  border-color: #dfe1e5;
+}
+
+.google-search input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 24px 0 0 24px;
+}
+
+.google-search button {
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.google-search button:hover {
+  background-color: #357ae8;
+}
+
+div .google {
+  background-color: rgba(8, 56, 100, 0.952);
+  background-image: url(../img/google-408194_1920.png);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+/*FIM GOOGLE BUSCADOR*/
+/*YOUTUBE*/
+div .youtube {
+  background-image: url(../img/1000_F_367592448_hd4RUpjG2tnAS5Kf0Pjwjl068EPQQWuy.jpg); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* ou cover, se preferir */
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .youtube:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-YOUTUBE*/
+
+/*MOBILLS*/
+div .mobills {
+  background-image: url(../img/logo-novo-mobills.png); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* ou cover, se preferir */
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .mobills:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-MOBILLS*/
+
+/*itens do primeiro quadrado e ultimo*/
+.items {
+  width: 300px;
+  height: 49%;
+  border-radius: 20px;
+  margin: 4px;
+
+  flex-grow: 1;
+}
+/*itens do primeiro quadrado e ultimo*/
+/*FIM Primeiro quadrado*/
+
+
+
+/*Quadro do meio*/
+.box-meio {
+  width: 400px;
+  height: 100%;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.items-meio {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 4px;
+  flex-grow: 1;
+}
+
+.YTstudio {
+  height: 50%;
+}
+
+/*YTstudio*/
+div .YTstudio {
+  background-image: url(../img/Yt\ Studio\ Logo\ Design\ Sticker.jpg); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* ou cover, se preferir */
+  background-color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .YTstudio:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-YTstudio*/
+
+/*Bambu*/
+div .Bambu {
+  background-image: url(../img/bambu.png); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* ou cover, se preferir */
+  background-color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .Bambu:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-Bambu*/
+/*FIM-Quadro do meio*/
+
+/*Quadro do diretiro*/
+.ultimoquardo {
+  display: flex;
+}
+
+.devmedia {
+  width: 60%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.boxatalhos {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.atalhos {
+  width: 40%;
+  height: 30%;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/*Gmail*/
+div .gmail {
+  background-image: url(../img/gmail.webp); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* ou cover, se preferir */
+  background-color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .gmail:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-Gmail*/
+
+/*foto*/
+div .foto {
+  background-image: url(../img/casamento.jpg); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover; /* ou cover, se preferir */
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .foto:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-foto*/
+
+/*devmedia*/
+div .devmedia {
+  background-image: url(../img/logo-devmedia.png); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; /* ou cover, se preferir */
+  background-color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* efeito de hover pra dar sensação de clique */
+div .devmedia:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-devmedia*/
+
+
+/*Atalhos*/
+div .atalhos {
+  background-image: url(../img/google-gemini-ico.png); /* caminho da sua imagem */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; /* ou cover, se preferir */
+  background-color: white;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+div .chatgpt {
+  background-image: url(../img/chatgot-ico.jpg); /* caminho da sua imagem */
+}
+
+div .shopee {
+  background-image: url(../img/shopee-ico.webp); /* caminho da sua imagem */
+  background-size: contain; /* ou cover, se preferir */
+}
+
+div .spotify {
+  background-image: url(../img/Spotify_icon.png); /* caminho da sua imagem */
+  background-size: contain; /* ou cover, se preferir */
+}
+
+div .pinterest {
+  background-image: url(../img/pinterest-ico.png); /* caminho da sua imagem */
+  background-size: contain; /* ou cover, se preferir */
+}
+
+div .canva {
+  background-image: url(../img/canva-icon.png); /* caminho da sua imagem */
+  background-size: contain; /* ou cover, se preferir */
+}
+
+
+
+/* efeito de hover pra dar sensação de clique */
+div .atalhos:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+/*FIM-Atalhos*/
+/*Quadro do direito*/
